@@ -1,13 +1,17 @@
 package com.nttdata.bootcamp.msaccounttype.model;
 
+import org.springframework.data.annotation.Id;
+import javax.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.springframework.data.annotation.Id;
-import javax.validation.constraints.NotNull;
 
+/**
+ * Class AccountType.
+ * AccountType microservice class AccountType.
+ */
 @Data
 @Builder
 @ToString

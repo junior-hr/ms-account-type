@@ -1,12 +1,14 @@
 package com.nttdata.bootcamp.msaccounttype.dto;
 
+import java.util.Date;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Date;
-
-
+/**
+ * Class ErrorDetail.
+ * AccountType microservice class ErrorDetail.
+ */
 @Getter
 @Setter
 @NoArgsConstructor
